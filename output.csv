@@ -1,0 +1,385 @@
+repository_name,team_name,team_permissions,user_name,user_permissions,user_full_name
+adminsite,,,ptrinidad-tc,admin,
+ascio,ascio-dev,admin,cdehlsen-tc,,Claus Dehlsen
+ascio,ascio-dev,admin,tgudmundsson-tc,,Tomas Gudmundsson
+ascio,ascio-dev,admin,jbhardwaj-tc,,Jinish Bhardwaj
+ascio,ascio-dev,admin,fbramer-tc,,
+ascio,ascio-dev,admin,grsmith-tc,,
+ascio,ascio-dev,admin,vjachimaviciute-tc,,Vilma J
+ascio,ascio-dev,admin,itahir-tc,,Irfan Tahir
+ascio,ascio-dev,admin,mhakansson-tc,,Magnus Håkansson
+ascio,,,cdehlsen-tc,admin,Claus Dehlsen
+ascio,ascio-dev,admin,cdehlsen-tc,,Claus Dehlsen
+ascio,ascio-dev,admin,tgudmundsson-tc,,Tomas Gudmundsson
+ascio,ascio-dev,admin,jbhardwaj-tc,,Jinish Bhardwaj
+ascio,ascio-dev,admin,fbramer-tc,,
+ascio,ascio-dev,admin,grsmith-tc,,
+ascio,ascio-dev,admin,vjachimaviciute-tc,,Vilma J
+ascio,ascio-dev,admin,itahir-tc,,Irfan Tahir
+ascio,ascio-dev,admin,mhakansson-tc,,Magnus Håkansson
+ascio,,,cdehlsen-tc,admin,Claus Dehlsen
+dish-5g-proxy,wavelo-security,admin,msahai-tc,,Michael Sahai
+dish-5g-proxy,wavelo-security,admin,sarentz-tc,,Stefan Arentz
+dish-5g-proxy,,,epirogov-tc,admin,Evgueni Pirogov
+dish-5g-proxy,,,ibamieh-tc,admin,Izzy
+dish-5g-proxy,,,staghavizadeh-tc,admin,SamZadeh
+dish-5g-proxy,,,asunderland-tc,admin,Andrew S
+dish-5g-proxy,,,gwitecki-tc,admin,Gwendolyn Witecki
+dish-5g-proxy,,,vwijesooriya-tc,admin,Viduranga Wijesooriya
+dish-5g-proxy,,,kcorreia-tc,admin,Kleber Correia
+dish-5g-proxy,,,jdietrich-tc,admin,Jonathan Dietrich
+dish-5g-proxy,,,msaleh-tc,admin,Mohammad Saleh
+dish-5g-proxy,,,rserradura-tc,admin,
+enom-dbservices,,,ptrinidad-tc,admin,
+enom-dbservices,,,sthompson-tc,admin,Shannon Thompson
+hover,,,ngaragliano-tc,admin,
+hover,,,mbolisay-tc,admin,
+hover,,,dhernandez-tc,admin,
+hover,,,jguajardo-tc,admin,
+hover,,,bthapa-tc,admin,Barun Thapa
+hover-infra,,,dkoo-tc,admin,
+hover-infra,,,ngaragliano-tc,admin,
+hover-infra,,,pthakkar-tc,admin,
+hover-infra,,,jlarter-tc,admin,
+imara,imara,admin,RDhar,,Rishav Dhar
+imara,imara,admin,benjaminrumble-tc,,Benjamin Rumble
+imara,imara,admin,drego-tc,,Danny Rego
+imara,imara,admin,jcrawford-tc,,Jeff Crawford
+imara,imara,admin,adutton-tc,,Andrew Dutton
+imara,imara,admin,pmcconnell-tc,,Patrick McConnell
+imara,imara,admin,tgudmundsson-tc,,Tomas Gudmundsson
+imara,imara,admin,taratyn-tc,,Tom Aratyn
+imara,imara,admin,aeldaly-tc,,Ahmed El-Daly
+imara,imara,admin,oigumbor-tc,,Osedum Igumbor
+imara,imara,admin,aplacid-tc,,Ashitha Placid
+imara,imara,admin,jlumley-tc,,Jeremy Lumley
+imara,imara,admin,vzago-tc,,Vinicius Zago
+imara,monos-ops,admin,adutton-tc,,Andrew Dutton
+imara,monos-ops,admin,pmcconnell-tc,,Patrick McConnell
+imara,monos-ops,admin,jmercer-tc,,Jim Mercer
+imara,monos-ops,admin,aafuwape-tc,,Anthony Afuwape
+imara,monos-ops,admin,kpatel-tc,,
+imara,monos-ops,admin,mbolisay-tc,,
+imara,monos-ops,admin,mse-bot-tc,,
+imara,monos-ops,admin,rmokkapati-tc,,
+imara,monos-ops,admin,schalamani-tc,,
+imara,monos-ops,admin,cpaulino-tc,,Carlos Paulino
+imara,wavelo-security,admin,msahai-tc,,Michael Sahai
+imara,wavelo-security,admin,sarentz-tc,,Stefan Arentz
+imara,,,benjaminrumble-tc,admin,Benjamin Rumble
+imara,,,aeldaly-tc,admin,Ahmed El-Daly
+imara,,,oigumbor-tc,admin,Osedum Igumbor
+imara,,,asunderland-tc,admin,Andrew S
+imara,,,ksitnik-tc,admin,Kamil Sitnik
+imara,,,gtassinari-tc,admin,Guilherme Tassinari
+imara,,,vzago-tc,admin,Vinicius Zago
+monos-ada-shared,wavelo-security,admin,msahai-tc,,Michael Sahai
+monos-ada-shared,wavelo-security,admin,sarentz-tc,,Stefan Arentz
+monos-ada-shared,,,cdias-tc,admin,Cidiomar Dias
+monos-aggregator,wavelo-security,admin,msahai-tc,,Michael Sahai
+monos-aggregator,wavelo-security,admin,sarentz-tc,,Stefan Arentz
+monos-aggregator,,,ccramer-tc,admin,Chad Cramer
+monos-aggregator,,,oigumbor-tc,admin,Osedum Igumbor
+monos-aggregator,,,asunderland-tc,admin,Andrew S
+monos-billing,wavelo-security,admin,msahai-tc,,Michael Sahai
+monos-billing,wavelo-security,admin,sarentz-tc,,Stefan Arentz
+monos-billing,,,ccramer-tc,admin,Chad Cramer
+monos-billing,,,oigumbor-tc,admin,Osedum Igumbor
+monos-billing,,,asunderland-tc,admin,Andrew S
+monos-floodgate,"Architecture ""A-Team""",admin,drego-tc,,Danny Rego
+monos-floodgate,"Architecture ""A-Team""",admin,jcrawford-tc,,Jeff Crawford
+monos-floodgate,"Architecture ""A-Team""",admin,pbevin-tc,,Pete Bevin
+monos-floodgate,"Architecture ""A-Team""",admin,jlumley-tc,,Jeremy Lumley
+monos-floodgate,"Architecture ""A-Team""",admin,cpaulino-tc,,Carlos Paulino
+monos-floodgate,wavelo-security,admin,msahai-tc,,Michael Sahai
+monos-floodgate,wavelo-security,admin,sarentz-tc,,Stefan Arentz
+monos-floodgate,,,drego-tc,admin,Danny Rego
+monos-floodgate,,,oigumbor-tc,admin,Osedum Igumbor
+monos-floodgate,,,asunderland-tc,admin,Andrew S
+monos-floodgate,,,kcorreia-tc,admin,Kleber Correia
+monos-floodgate,,,rfloriano-tc,admin,Rafael Floriano da Silva
+monos-metrics,SecOps,admin,mmeintker-tc,,
+monos-metrics,SecOps,admin,jknight-tc,,
+monos-metrics,SecOps,admin,akranz-tc,,
+monos-metrics,SecOps,admin,spassi-tc,,
+monos-metrics,wavelo-security,admin,msahai-tc,,Michael Sahai
+monos-metrics,wavelo-security,admin,sarentz-tc,,Stefan Arentz
+monos-quotation-gateway-service,wavelo-security,admin,msahai-tc,,Michael Sahai
+monos-quotation-gateway-service,wavelo-security,admin,sarentz-tc,,Stefan Arentz
+monos-quotation-gateway-service,,,ccramer-tc,admin,Chad Cramer
+monos-quotation-gateway-service,,,oigumbor-tc,admin,Osedum Igumbor
+monos-quotation-gateway-service,,,asunderland-tc,admin,Andrew S
+monos-remootify,imara,admin,RDhar,,Rishav Dhar
+monos-remootify,imara,admin,benjaminrumble-tc,,Benjamin Rumble
+monos-remootify,imara,admin,drego-tc,,Danny Rego
+monos-remootify,imara,admin,jcrawford-tc,,Jeff Crawford
+monos-remootify,imara,admin,adutton-tc,,Andrew Dutton
+monos-remootify,imara,admin,pmcconnell-tc,,Patrick McConnell
+monos-remootify,imara,admin,tgudmundsson-tc,,Tomas Gudmundsson
+monos-remootify,imara,admin,taratyn-tc,,Tom Aratyn
+monos-remootify,imara,admin,aeldaly-tc,,Ahmed El-Daly
+monos-remootify,imara,admin,oigumbor-tc,,Osedum Igumbor
+monos-remootify,imara,admin,aplacid-tc,,Ashitha Placid
+monos-remootify,imara,admin,jlumley-tc,,Jeremy Lumley
+monos-remootify,imara,admin,vzago-tc,,Vinicius Zago
+monos-remootify,wavelo-security,admin,msahai-tc,,Michael Sahai
+monos-remootify,wavelo-security,admin,sarentz-tc,,Stefan Arentz
+monos-remootify,,,ccramer-tc,admin,Chad Cramer
+monos-remootify,,,oigumbor-tc,admin,Osedum Igumbor
+monos-remootify,,,asunderland-tc,admin,Andrew S
+monos-scheduler,wavelo-security,admin,msahai-tc,,Michael Sahai
+monos-scheduler,wavelo-security,admin,sarentz-tc,,Stefan Arentz
+monos-scheduler,,,ccramer-tc,admin,Chad Cramer
+monos-scheduler,,,oigumbor-tc,admin,Osedum Igumbor
+monos-scheduler,,,asunderland-tc,admin,Andrew S
+monos-serialization,wavelo-security,admin,msahai-tc,,Michael Sahai
+monos-serialization,wavelo-security,admin,sarentz-tc,,Stefan Arentz
+monos-serialization,,,ccramer-tc,admin,Chad Cramer
+monos-serialization,,,oigumbor-tc,admin,Osedum Igumbor
+monos-serialization,,,asunderland-tc,admin,Andrew S
+monos-shared,wavelo-security,admin,msahai-tc,,Michael Sahai
+monos-shared,wavelo-security,admin,sarentz-tc,,Stefan Arentz
+monos-switchboard,wavelo-security,admin,msahai-tc,,Michael Sahai
+monos-switchboard,wavelo-security,admin,sarentz-tc,,Stefan Arentz
+monos-switchboard,,,msolaja-tc,admin,
+monos-switchboard,,,schalamani-tc,admin,
+monos-tax-service,wavelo-security,admin,msahai-tc,,Michael Sahai
+monos-tax-service,wavelo-security,admin,sarentz-tc,,Stefan Arentz
+monos-tax-service,,,ccramer-tc,admin,Chad Cramer
+monos-tax-service,,,oigumbor-tc,admin,Osedum Igumbor
+monos-tax-service,,,asunderland-tc,admin,Andrew S
+monos-tracing,wavelo-security,admin,msahai-tc,,Michael Sahai
+monos-tracing,wavelo-security,admin,sarentz-tc,,Stefan Arentz
+mse-accounting,wavelo-security,admin,msahai-tc,,Michael Sahai
+mse-accounting,wavelo-security,admin,sarentz-tc,,Stefan Arentz
+mse-accounting,,,ccramer-tc,admin,Chad Cramer
+mse-accounting,,,epirogov-tc,admin,Evgueni Pirogov
+mse-accounting,,,sbc-tc,admin,
+mse-accounting,,,asunderland-tc,admin,Andrew S
+mse-accounting,,,bpierrette-tc,admin,
+mse-accounting,,,cdias-tc,admin,Cidiomar Dias
+mse-accounts,wavelo-security,admin,msahai-tc,,Michael Sahai
+mse-accounts,wavelo-security,admin,sarentz-tc,,Stefan Arentz
+mse-accounts,,,ccramer-tc,admin,Chad Cramer
+mse-accounts,,,epirogov-tc,admin,Evgueni Pirogov
+mse-accounts,,,lmelnyk-tc,admin,Lily Melnyk
+mse-accounts,,,asunderland-tc,admin,Andrew S
+mse-accounts,,,bpierrette-tc,admin,
+mse-accounts,,,cdias-tc,admin,Cidiomar Dias
+mse-att-csi-proxy,wavelo-security,admin,msahai-tc,,Michael Sahai
+mse-att-csi-proxy,wavelo-security,admin,sarentz-tc,,Stefan Arentz
+mse-att-csi-proxy,,,epirogov-tc,admin,Evgueni Pirogov
+mse-att-csi-proxy,,,ibamieh-tc,admin,Izzy
+mse-att-csi-proxy,,,staghavizadeh-tc,admin,SamZadeh
+mse-att-csi-proxy,,,gwitecki-tc,admin,Gwendolyn Witecki
+mse-att-csi-proxy,,,vwijesooriya-tc,admin,Viduranga Wijesooriya
+mse-att-csi-proxy,,,kcorreia-tc,admin,Kleber Correia
+mse-att-csi-proxy,,,msaleh-tc,admin,Mohammad Saleh
+mse-att-ericsson-proxy,wavelo-security,admin,msahai-tc,,Michael Sahai
+mse-att-ericsson-proxy,wavelo-security,admin,sarentz-tc,,Stefan Arentz
+mse-att-ericsson-proxy,,,epirogov-tc,admin,Evgueni Pirogov
+mse-att-ericsson-proxy,,,ibamieh-tc,admin,Izzy
+mse-att-ericsson-proxy,,,staghavizadeh-tc,admin,SamZadeh
+mse-att-ericsson-proxy,,,gwitecki-tc,admin,Gwendolyn Witecki
+mse-att-ericsson-proxy,,,vwijesooriya-tc,admin,Viduranga Wijesooriya
+mse-att-ericsson-proxy,,,msaleh-tc,admin,Mohammad Saleh
+mse-att-proxy-client,wavelo-security,admin,msahai-tc,,Michael Sahai
+mse-att-proxy-client,wavelo-security,admin,sarentz-tc,,Stefan Arentz
+mse-att-proxy-client,,,epirogov-tc,admin,Evgueni Pirogov
+mse-att-proxy-client,,,ibamieh-tc,admin,Izzy
+mse-att-proxy-client,,,gwitecki-tc,admin,Gwendolyn Witecki
+mse-att-proxy-client,,,vwijesooriya-tc,admin,Viduranga Wijesooriya
+mse-catalog-ingestion-service,monos-prod-deploy-approvers,admin,ccramer-tc,,Chad Cramer
+mse-catalog-ingestion-service,monos-prod-deploy-approvers,admin,msahai-tc,,Michael Sahai
+mse-catalog-ingestion-service,monos-prod-deploy-approvers,admin,hliem-tc,,Hanno Liem
+mse-catalog-ingestion-service,monos-prod-deploy-approvers,admin,ibamieh-tc,,Izzy
+mse-catalog-ingestion-service,monos-prod-deploy-approvers,admin,asunderland-tc,,Andrew S
+mse-catalog-ingestion-service,monos-prod-deploy-approvers,admin,jasbridge-tc,,
+mse-catalog-ingestion-service,wavelo-security,admin,msahai-tc,,Michael Sahai
+mse-catalog-ingestion-service,wavelo-security,admin,sarentz-tc,,Stefan Arentz
+mse-catalog-ingestion-service,,,epirogov-tc,admin,Evgueni Pirogov
+mse-catalog-ingestion-service,,,sbc-tc,admin,
+mse-catalog-ingestion-service,,,oigumbor-tc,admin,Osedum Igumbor
+mse-catalog-ingestion-service,,,asunderland-tc,admin,Andrew S
+mse-catalog-ingestion-service,,,gwitecki-tc,admin,Gwendolyn Witecki
+mse-catalog-ingestion-service,,,vwijesooriya-tc,admin,Viduranga Wijesooriya
+mse-catalog-ingestion-service,,,kcorreia-tc,admin,Kleber Correia
+mse-catalog-ingestion-service,,,jdietrich-tc,admin,Jonathan Dietrich
+mse-catalog-ingestion-service,,,svaz-tc,admin,svaz-tc
+mse-catalog-ingestion-service,,,msaleh-tc,admin,Mohammad Saleh
+mse-coverage-validation-service,wavelo-security,admin,msahai-tc,,Michael Sahai
+mse-coverage-validation-service,wavelo-security,admin,sarentz-tc,,Stefan Arentz
+mse-coverage-validation-service,,,epirogov-tc,admin,Evgueni Pirogov
+mse-coverage-validation-service,,,ibamieh-tc,admin,Izzy
+mse-coverage-validation-service,,,staghavizadeh-tc,admin,SamZadeh
+mse-coverage-validation-service,,,asunderland-tc,admin,Andrew S
+mse-coverage-validation-service,,,gwitecki-tc,admin,Gwendolyn Witecki
+mse-coverage-validation-service,,,mbolisay-tc,admin,
+mse-coverage-validation-service,,,vwijesooriya-tc,admin,Viduranga Wijesooriya
+mse-coverage-validation-service,,,msaleh-tc,admin,Mohammad Saleh
+mse-device-validation-service,monos-ops,admin,adutton-tc,,Andrew Dutton
+mse-device-validation-service,monos-ops,admin,pmcconnell-tc,,Patrick McConnell
+mse-device-validation-service,monos-ops,admin,jmercer-tc,,Jim Mercer
+mse-device-validation-service,monos-ops,admin,aafuwape-tc,,Anthony Afuwape
+mse-device-validation-service,monos-ops,admin,kpatel-tc,,
+mse-device-validation-service,monos-ops,admin,mbolisay-tc,,
+mse-device-validation-service,monos-ops,admin,mse-bot-tc,,
+mse-device-validation-service,monos-ops,admin,rmokkapati-tc,,
+mse-device-validation-service,monos-ops,admin,schalamani-tc,,
+mse-device-validation-service,monos-ops,admin,cpaulino-tc,,Carlos Paulino
+mse-device-validation-service,wavelo-security,admin,msahai-tc,,Michael Sahai
+mse-device-validation-service,wavelo-security,admin,sarentz-tc,,Stefan Arentz
+mse-device-validation-service,,,epirogov-tc,admin,Evgueni Pirogov
+mse-device-validation-service,,,ibamieh-tc,admin,Izzy
+mse-device-validation-service,,,staghavizadeh-tc,admin,SamZadeh
+mse-device-validation-service,,,asunderland-tc,admin,Andrew S
+mse-device-validation-service,,,gwitecki-tc,admin,Gwendolyn Witecki
+mse-device-validation-service,,,vwijesooriya-tc,admin,Viduranga Wijesooriya
+mse-device-validation-service,,,kcorreia-tc,admin,Kleber Correia
+mse-device-validation-service,,,msaleh-tc,admin,Mohammad Saleh
+mse-device-validation-service,,,rserradura-tc,admin,
+mse-dish-5g-proxy-client,wavelo-security,admin,msahai-tc,,Michael Sahai
+mse-dish-5g-proxy-client,wavelo-security,admin,sarentz-tc,,Stefan Arentz
+mse-dish-5g-proxy-client,,,epirogov-tc,admin,Evgueni Pirogov
+mse-dish-5g-proxy-client,,,ibamieh-tc,admin,Izzy
+mse-dish-5g-proxy-client,,,staghavizadeh-tc,admin,SamZadeh
+mse-dish-5g-proxy-client,,,gwitecki-tc,admin,Gwendolyn Witecki
+mse-dish-5g-proxy-client,,,vwijesooriya-tc,admin,Viduranga Wijesooriya
+mse-e911-authenticator-and-router,wavelo-security,admin,msahai-tc,,Michael Sahai
+mse-e911-authenticator-and-router,wavelo-security,admin,sarentz-tc,,Stefan Arentz
+mse-e911-authenticator-and-router,,,epirogov-tc,admin,Evgueni Pirogov
+mse-e911-authenticator-and-router,,,ibamieh-tc,admin,Izzy
+mse-e911-authenticator-and-router,,,staghavizadeh-tc,admin,SamZadeh
+mse-e911-authenticator-and-router,,,asunderland-tc,admin,Andrew S
+mse-e911-authenticator-and-router,,,gwitecki-tc,admin,Gwendolyn Witecki
+mse-invoicing,wavelo-security,admin,msahai-tc,,Michael Sahai
+mse-invoicing,wavelo-security,admin,sarentz-tc,,Stefan Arentz
+mse-invoicing,,,ccramer-tc,admin,Chad Cramer
+mse-invoicing,,,oigumbor-tc,admin,Osedum Igumbor
+mse-invoicing,,,asunderland-tc,admin,Andrew S
+mse-port-eligibility-service,wavelo-security,admin,msahai-tc,,Michael Sahai
+mse-port-eligibility-service,wavelo-security,admin,sarentz-tc,,Stefan Arentz
+mse-port-eligibility-service,,,epirogov-tc,admin,Evgueni Pirogov
+mse-port-eligibility-service,,,staghavizadeh-tc,admin,SamZadeh
+mse-port-eligibility-service,,,asunderland-tc,admin,Andrew S
+mse-port-eligibility-service,,,gwitecki-tc,admin,Gwendolyn Witecki
+mse-port-eligibility-service,,,vwijesooriya-tc,admin,Viduranga Wijesooriya
+mse-port-eligibility-service,,,kcorreia-tc,admin,Kleber Correia
+mse-port-eligibility-service,,,msaleh-tc,admin,Mohammad Saleh
+mse-provisioning-service,monos-ops,admin,adutton-tc,,Andrew Dutton
+mse-provisioning-service,monos-ops,admin,pmcconnell-tc,,Patrick McConnell
+mse-provisioning-service,monos-ops,admin,jmercer-tc,,Jim Mercer
+mse-provisioning-service,monos-ops,admin,aafuwape-tc,,Anthony Afuwape
+mse-provisioning-service,monos-ops,admin,kpatel-tc,,
+mse-provisioning-service,monos-ops,admin,mbolisay-tc,,
+mse-provisioning-service,monos-ops,admin,mse-bot-tc,,
+mse-provisioning-service,monos-ops,admin,rmokkapati-tc,,
+mse-provisioning-service,monos-ops,admin,schalamani-tc,,
+mse-provisioning-service,monos-ops,admin,cpaulino-tc,,Carlos Paulino
+mse-provisioning-service,wavelo-security,admin,msahai-tc,,Michael Sahai
+mse-provisioning-service,wavelo-security,admin,sarentz-tc,,Stefan Arentz
+mse-provisioning-service,,,ccramer-tc,admin,Chad Cramer
+mse-provisioning-service,,,epirogov-tc,admin,Evgueni Pirogov
+mse-provisioning-service,,,sbc-tc,admin,
+mse-provisioning-service,,,ibamieh-tc,admin,Izzy
+mse-provisioning-service,,,staghavizadeh-tc,admin,SamZadeh
+mse-provisioning-service,,,asunderland-tc,admin,Andrew S
+mse-provisioning-service,,,gwitecki-tc,admin,Gwendolyn Witecki
+mse-provisioning-service,,,mbolisay-tc,admin,
+mse-provisioning-service,,,vwijesooriya-tc,admin,Viduranga Wijesooriya
+mse-provisioning-service,,,kcorreia-tc,admin,Kleber Correia
+mse-provisioning-service,,,ppanganiban-tc,admin,Perlanie
+mse-provisioning-service,,,jdietrich-tc,admin,Jonathan Dietrich
+mse-provisioning-service,,,svaz-tc,admin,svaz-tc
+mse-provisioning-service,,,msaleh-tc,admin,Mohammad Saleh
+mse-provisioning-service,,,rserradura-tc,admin,
+mse-routing-service,wavelo-security,admin,msahai-tc,,Michael Sahai
+mse-routing-service,wavelo-security,admin,sarentz-tc,,Stefan Arentz
+mse-routing-service,,,epirogov-tc,admin,Evgueni Pirogov
+mse-routing-service,,,staghavizadeh-tc,admin,SamZadeh
+mse-routing-service,,,asunderland-tc,admin,Andrew S
+mse-routing-service,,,gwitecki-tc,admin,Gwendolyn Witecki
+mse-routing-service,,,vwijesooriya-tc,admin,Viduranga Wijesooriya
+mse-routing-service,,,kcorreia-tc,admin,Kleber Correia
+mse-routing-service,,,msaleh-tc,admin,Mohammad Saleh
+mse-routing-service,,,rserradura-tc,admin,
+opensrs,opensrs-admins,admin,mnieweglowski-tc,,Mark Nieweglowski
+opensrs-infra,DomainsA,admin,dkoo-tc,,
+opensrs-infra,DomainsA,admin,ngaragliano-tc,,
+opensrs-infra,DomainsA,admin,dschaan-tc,,
+opensrs-infra,DomainsA,admin,mwalraven-tc,,
+opensrs-infra,DomainsA,admin,pthakkar-tc,,
+opensrs-infra,DomainsA,admin,jlarter-tc,,
+opensrs-infra,DomainsA,admin,jtecson-tc,,
+prod_enom-terraform,DomainsB,admin,ptrinidad-tc,,
+prod_enom-terraform,DomainsB,admin,dschaan-tc,,
+prod_enom-terraform,DomainsB,admin,mumar-tc,,
+prod_enom-terraform,DomainsB,admin,jtecson-tc,,
+prod_enom-terraform,DomainsB,admin,domainsb-bot-tc,,
+prod_enom-terraform,,,domainsb-bot-tc,admin,
+ting-backend,,,epirogov-tc,admin,Evgueni Pirogov
+ting-backend,,,mvanlammeren-tc,admin,Mike van Lammeren
+ting-funds,,,mvanlammeren-tc,admin,Mike van Lammeren
+ting-middleware,,,mvanlammeren-tc,admin,Mike van Lammeren
+ting-node,,,mvanlammeren-tc,admin,Mike van Lammeren
+tmo-notify-proxy,monos-ops,admin,adutton-tc,,Andrew Dutton
+tmo-notify-proxy,monos-ops,admin,pmcconnell-tc,,Patrick McConnell
+tmo-notify-proxy,monos-ops,admin,jmercer-tc,,Jim Mercer
+tmo-notify-proxy,monos-ops,admin,aafuwape-tc,,Anthony Afuwape
+tmo-notify-proxy,monos-ops,admin,kpatel-tc,,
+tmo-notify-proxy,monos-ops,admin,mbolisay-tc,,
+tmo-notify-proxy,monos-ops,admin,mse-bot-tc,,
+tmo-notify-proxy,monos-ops,admin,rmokkapati-tc,,
+tmo-notify-proxy,monos-ops,admin,schalamani-tc,,
+tmo-notify-proxy,monos-ops,admin,cpaulino-tc,,Carlos Paulino
+tmo-notify-proxy,wavelo-security,admin,msahai-tc,,Michael Sahai
+tmo-notify-proxy,wavelo-security,admin,sarentz-tc,,Stefan Arentz
+tmo-notify-proxy,,,epirogov-tc,admin,Evgueni Pirogov
+tmo-notify-proxy,,,ibamieh-tc,admin,Izzy
+tmo-notify-proxy,,,staghavizadeh-tc,admin,SamZadeh
+tmo-notify-proxy,,,asunderland-tc,admin,Andrew S
+tmo-notify-proxy,,,gwitecki-tc,admin,Gwendolyn Witecki
+tmo-notify-proxy,,,vwijesooriya-tc,admin,Viduranga Wijesooriya
+tmo-notify-proxy,,,kcorreia-tc,admin,Kleber Correia
+tmo-notify-proxy,,,ppanganiban-tc,admin,Perlanie
+tmo-notify-proxy,,,svaz-tc,admin,svaz-tc
+tmo-notify-proxy,,,msaleh-tc,admin,Mohammad Saleh
+tmo-notify-proxy,,,rserradura-tc,admin,
+tmobile-netcracker-proxy,wavelo-security,admin,msahai-tc,,Michael Sahai
+tmobile-netcracker-proxy,wavelo-security,admin,sarentz-tc,,Stefan Arentz
+tmobile-netcracker-proxy,,,epirogov-tc,admin,Evgueni Pirogov
+tmobile-netcracker-proxy,,,staghavizadeh-tc,admin,SamZadeh
+tmobile-netcracker-proxy,,,asunderland-tc,admin,Andrew S
+tmobile-netcracker-proxy,,,gwitecki-tc,admin,Gwendolyn Witecki
+tmobile-netcracker-proxy,,,vwijesooriya-tc,admin,Viduranga Wijesooriya
+tmobile-netcracker-proxy,,,kcorreia-tc,admin,Kleber Correia
+tmobile-netcracker-proxy,,,svaz-tc,admin,svaz-tc
+tmobile-netcracker-proxy,,,msaleh-tc,admin,Mohammad Saleh
+tmobile-netcracker-proxy-api,wavelo-security,admin,msahai-tc,,Michael Sahai
+tmobile-netcracker-proxy-api,wavelo-security,admin,sarentz-tc,,Stefan Arentz
+tmobile-netcracker-proxy-api,,,ibamieh-tc,admin,Izzy
+tmobile-netcracker-proxy-api,,,staghavizadeh-tc,admin,SamZadeh
+tmobile-netcracker-proxy-api,,,asunderland-tc,admin,Andrew S
+tmobile-netcracker-proxy-api,,,gwitecki-tc,admin,Gwendolyn Witecki
+tmobile-netcracker-proxy-api,,,vwijesooriya-tc,admin,Viduranga Wijesooriya
+turbine,monos-ops,admin,adutton-tc,,Andrew Dutton
+turbine,monos-ops,admin,pmcconnell-tc,,Patrick McConnell
+turbine,monos-ops,admin,jmercer-tc,,Jim Mercer
+turbine,monos-ops,admin,aafuwape-tc,,Anthony Afuwape
+turbine,monos-ops,admin,kpatel-tc,,
+turbine,monos-ops,admin,mbolisay-tc,,
+turbine,monos-ops,admin,mse-bot-tc,,
+turbine,monos-ops,admin,rmokkapati-tc,,
+turbine,monos-ops,admin,schalamani-tc,,
+turbine,monos-ops,admin,cpaulino-tc,,Carlos Paulino
+turbine,wavelo-security,admin,msahai-tc,,Michael Sahai
+turbine,wavelo-security,admin,sarentz-tc,,Stefan Arentz
+turbine,,,ccramer-tc,admin,Chad Cramer
+turbine,,,asunderland-tc,admin,Andrew S
+turbine,,,bpierrette-tc,admin,
+turbine,,,tcurvelo-tc,admin,Thiago Curvelo
+verizon-proxy,,,ccramer-tc,admin,Chad Cramer
+verizon-proxy,,,aeldaly-tc,admin,Ahmed El-Daly
+verizon-proxy,,,mbolisay-tc,admin,
+verizon-proxy,,,jcracchiolo-tc,admin,Joseph Cracchiolo
+verizon-proxy,,,mvanlammeren-tc,admin,Mike van Lammeren

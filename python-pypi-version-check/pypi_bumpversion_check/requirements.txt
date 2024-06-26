@@ -1,0 +1,3 @@
+# Requirements for pypi_bumpversion_check
+toml
+requests

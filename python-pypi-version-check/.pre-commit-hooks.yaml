@@ -1,0 +1,6 @@
+---
+- id: python-pypi-version-check
+  name: python-pypi-version-check
+  description: Check if Python package already exists on PYPI.
+  entry: python-pypi-version-check
+  language: python
