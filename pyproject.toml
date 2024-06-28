@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
-packages = ["pypi_bumpversion_check"]
+packages = { find = { where = ["."] } }
 
 [project]
 name = "python-pypi-version-check"
@@ -39,5 +39,6 @@ classifiers = [
     "Topic :: Utilities"
 ]
 
-[project.scripts]
-python-pypi-version-check = "pypi_bumpversion_check.__main__:main"
+[project.entry-points."console_scripts"]
+python-pypi-version-check = "hooks.pypi_bumpversion_check.main:main"
+python-pypi-version-check-test = "hooks.pypi_bumpversion_check.main:main"
