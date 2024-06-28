@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 packages = { find = { where = ["."] } }
 
 [project]
-name = "python-pypi-version-check"
+name = "opencepk-lib-python-common"
 version = "1.0.1"
 description = "Python package and pre-commit-hook for finding and replacing string(s) in file(s)."
 readme = "README.md"
@@ -41,4 +41,4 @@ classifiers = [
 
 [project.entry-points."console_scripts"]
 python-pypi-version-check = "hooks.pypi_bumpversion_check.main:main"
-python-pypi-version-check-test = "hooks.pypi_bumpversion_check.main:main"
+find-and-replace-strings = "hooks.find_and_replace_strings.main:main"
