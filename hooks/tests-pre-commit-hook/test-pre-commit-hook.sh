@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+TEST_DIR_FROM_ROOT="hooks/tests-pre-commit-hook"
 TEST_DIR="tests-pre-commit-hook"
 TEST_SCRIPT_FILENAME=$(basename -- "$0")
 TEST_SCRIPT_NAME="${TEST_SCRIPT_FILENAME%.*}"
@@ -8,8 +9,8 @@ TEST_TARGET_FILE="README_TEST_PRE_COMMIT.md"
 #-------------------------------
 # Run the pre-commit hook test
 #-------------------------------
-echo "${TEST_SCRIPT_NAME}: Running pre-commit using ${TEST_DIR}/.pre-commit-config.yaml"
-(cd .. && pre-commit run -a -c "${TEST_DIR}/.pre-commit-config.yaml")
+echo "${TEST_SCRIPT_NAME}: Running pre-commit using ${TEST_DIR_FROM_ROOT}/.pre-commit-config.yaml"
+(cd ../.. && PWD && pre-commit run -a -c "${TEST_DIR_FROM_ROOT}/.pre-commit-config.yaml")
 
 #-------------------------------
 # Evaluate results
@@ -23,6 +24,7 @@ evaluate_diff_status=$?
 # Run the pre-commit hook reset
 #-------------------------------
 echo "${TEST_SCRIPT_NAME}: Resetting ${TEST_DIR}/${TEST_TARGET_FILE} file to original state"
+PWD
 cp -pf "${TEST_TARGET_FILE}.template" "${TEST_TARGET_FILE}"
 
 #-------------------------------

@@ -6,9 +6,10 @@ repos:
     hooks:
       - id: find-and-replace-strings
         name: find-and-replace-strings
-        entry: "./find_and_replace_strings/main.py"
+        entry: "./hooks/find_and_replace_strings/main.py"
         language: python
         exclude_types:
           - binary
-        args: ["--config", "./tests-pre-commit-hook/.find-and-replace.json"]
-        files: "tests-pre-commit-hook/README_TEST_PRE_COMMIT.md"
+        args: ["--config", "./hooks/tests-pre-commit-hook/.find-and-replace.json"]
+        # files: "tests-pre-commit-hook/README_TEST_PRE_COMMIT.md"
+        files: "tests-pre-commit-hook/README_TEST_PRE_COMMIT\\.md$" # we need $ to terminate the check to avoid .md.template to be picked by hook
