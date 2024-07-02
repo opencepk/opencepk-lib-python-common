@@ -21,7 +21,6 @@ repos:
   # -----------------------------
   # Checkov includes more than 750 predefined policies to check for common misconfiguration issues.
   # Checkov also supports the creation and contribution of custom policies.
-  # https://www.checkov.io/4.Integrations/pre-commit.html
   # -----------------------------
   - repo: https://github.com/bridgecrewio/checkov.git
     rev: 3.2.164
@@ -66,7 +65,7 @@ repos:
     hooks:
       - id: install-pypi_bumpversion_check-requirements
         name: Install PYPI bumpversion check requirements
-        entry: sh -c 'pip3 install -r ./hooks/pypi_bumpversion_check/requirements.txt && exit 0'
+        entry: sh -c 'pip3 install -r ./hooks/pypi_bumpversion_check_package/pypi_bumpversion_check/requirements.txt && exit 0'
         language: system
         always_run: true
 
@@ -78,7 +77,7 @@ repos:
       - id: pypi_bumpversion_check
         name: Check version
         args: ['./pyproject.toml']
-        entry: python3 -m hooks.pypi_bumpversion_check
+        entry: python3 -m hooks.pypi_bumpversion_check_package.pypi_bumpversion_check
         language: system
         pass_filenames: false  # Do not pass filenames to the hook (this is important to keep)
 
