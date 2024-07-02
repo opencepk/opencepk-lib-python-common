@@ -10,6 +10,5 @@ TEST_TARGET_FILE="README_TEST_PRE_COMMIT.md"
 # Run the pre-commit hook test
 #-------------------------------
 echo "${TEST_SCRIPT_NAME}: Running pre-commit using ${TEST_DIR_FROM_ROOT}/.pre-commit-config.yaml"
-cd ../../.. 
+cd ../../..
 pre-commit run -a -c "${TEST_DIR_FROM_ROOT}/.pre-commit-config.yaml"
-
