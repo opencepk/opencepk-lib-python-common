@@ -67,14 +67,19 @@ jobs:
         with:
           python-version: 3.11
 
-      - name: Run test-pre-commit-hook.sh for find-replace-strings package
+      - name: Install dependencies
         run: |
-          pip install pre-commit
+          python -m pip install --upgrade pip
+          pip install pre-commit toml
+
+  - name: Run test-pre-commit-hook.sh for find-replace-strings package
+        run: |
+          # pip install pre-commit
           cd opencepk_lib_python_common/find_and_replace_strings_package/tests-pre-commit-hook
           ./test-pre-commit-hook.sh
 
       - name: Run test-pre-commit-hook.sh for check version package
         run: |
-          pip install pre-commit
+          # pip install pre-commit
           cd opencepk_lib_python_common/pypi_bumpversion_check_package/tests-pre-commit-hook
           ./test-pre-commit-hook.sh

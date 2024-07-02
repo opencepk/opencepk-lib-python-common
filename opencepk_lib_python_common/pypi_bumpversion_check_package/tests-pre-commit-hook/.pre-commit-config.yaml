@@ -2,18 +2,13 @@
 # See https://pre-commit.com for more information
 # See https://pre-commit.com/hooks.html for more hooks
 repos:
-
-  # -----------------------------
-  # PYPI bumpversion check
-  # -----------------------------
   - repo: local
     hooks:
       - id: python-pypi-version-check
         name: python-pypi-version-check
-        entry: "opencepk_lib_python_common/pypi_bumpversion_check_package/pypi_bumpversion_check/main.py"
+        entry: "./opencepk_lib_python_common/pypi_bumpversion_check_package/pypi_bumpversion_check/main.py"
         language: python
         exclude_types:
           - binary
         args: ['./opencepk_lib_python_common/pypi_bumpversion_check_package/tests-pre-commit-hook/pyproject.test']
         pass_filenames: false  # Do not pass filenames to the hook (this is important to keep)
-        
