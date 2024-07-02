@@ -24,7 +24,7 @@ repos:
   # https://www.checkov.io/4.Integrations/pre-commit.html
   # -----------------------------
   - repo: https://github.com/bridgecrewio/checkov.git
-    rev: 3.2.156
+    rev: 3.2.164
     hooks:
       - id: checkov
   # -----------------------------
@@ -81,3 +81,12 @@ repos:
         entry: python3 -m hooks.pypi_bumpversion_check
         language: system
         pass_filenames: false  # Do not pass filenames to the hook (this is important to keep)
+
+  - repo: local
+    hooks:
+      - id: unittest
+        name: Run unit tests
+        entry: python3 -m unittest hooks.tests.test_main
+        language: system
+        pass_filenames: false
+        always_run: true
