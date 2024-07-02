@@ -50,6 +50,11 @@ jobs:
         run: |
           cd opencepk_lib_python_common/find_and_replace_strings_package/tests-package-e2e
           ./test-package-e2e.sh
+
+      - name: Run test-package-e2e.sh for check version package
+        run: |
+          cd opencepk_lib_python_common/pypi_bumpversion_check_package/tests-package-e2e
+          ./test-package-e2e.sh
   # ----------------------
   # JOB 3: Run pre-commit hook test
   # ----------------------
