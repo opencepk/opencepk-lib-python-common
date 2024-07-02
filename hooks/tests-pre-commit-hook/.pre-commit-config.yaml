@@ -11,5 +11,5 @@ repos:
         exclude_types:
           - binary
         args: ["--config", "./hooks/tests-pre-commit-hook/.find-and-replace.json"]
-        # files: "tests-pre-commit-hook/README_TEST_PRE_COMMIT.md"
-        files: "tests-pre-commit-hook/README_TEST_PRE_COMMIT\\.md$" # we need $ to terminate the check to avoid .md.template to be picked by hook
+        files: "tests-pre-commit-hook/README_TEST_PRE_COMMIT\\.md$"
+        # we need $ to terminate the check to avoid .md.template to be picked by hook
