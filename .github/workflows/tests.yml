@@ -28,29 +28,28 @@ jobs:
           python-version: 3.11
 
       - name: Run tests
-        # run: python3 -m unittest tests/test_main.py
         run: python3 -m unittest hooks.tests.test_main
   # ----------------------
   # JOB 2: Run python package end to end test
   # ----------------------
-  # test-package-e2e:
-  #   name: test-package-e2e
-  #   runs-on: ubuntu-latest
-  #   permissions:
-  #     id-token: write
+  test-package-e2e:
+    name: test-package-e2e
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
 
-  #   steps:
-  #     - uses: actions/checkout@v2
+    steps:
+      - uses: actions/checkout@v2
 
-  #     - name: Set up Python
-  #       uses: actions/setup-python@v5.1.0
-  #       with:
-  #         python-version: 3.11
+      - name: Set up Python
+        uses: actions/setup-python@v5.1.0
+        with:
+          python-version: 3.11
 
-  #     - name: Run test-package-e2e.sh
-  #       run: |
-  #         cd hooks/tests-package-e2e
-  #         ./test-package-e2e.sh
+      - name: Run test-package-e2e.sh
+        run: |
+          cd hooks/tests-package-e2e
+          ./test-package-e2e.sh
   # ----------------------
   # JOB 3: Run pre-commit hook test
   # ----------------------
