@@ -53,22 +53,22 @@ jobs:
   # ----------------------
   # JOB 3: Run pre-commit hook test
   # ----------------------
-  # test-pre-commit-hook:
-  #   name: test-pre-commit-hook
-  #   runs-on: ubuntu-latest
-  #   permissions:
-  #     id-token: write
+  test-pre-commit-hook:
+    name: test-pre-commit-hook
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
 
-  #   steps:
-  #     - uses: actions/checkout@v2
+    steps:
+      - uses: actions/checkout@v2
 
-  #     - name: Set up Python
-  #       uses: actions/setup-python@v5.1.0
-  #       with:
-  #         python-version: 3.11
+      - name: Set up Python
+        uses: actions/setup-python@v5.1.0
+        with:
+          python-version: 3.11
 
-  #     - name: Run test-pre-commit-hook.sh
-  #       run: |
-  #         pip install pre-commit
-  #         cd tests-pre-commit-hook
-  #         ./test-pre-commit-hook.sh
+      - name: Run test-pre-commit-hook.sh
+        run: |
+          pip install pre-commit
+          cd hooks/tests-pre-commit-hook
+          ./test-pre-commit-hook.sh
