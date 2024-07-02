@@ -27,3 +27,4 @@ jobs:
       - name: Run test-pre-commit-hook.sh for check version package
         run: |
           pip3 install .
+          pip3 install ".[dep]"    
