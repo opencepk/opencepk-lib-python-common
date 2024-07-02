@@ -6,10 +6,10 @@ from unittest.mock import patch, mock_open
 import os
 import sys
 
-project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..'))
 if project_root not in sys.path:
     sys.path.insert(0, project_root)
-from find_and_replace_strings.main import replace_in_file, main
+from find_and_replace_strings_package.find_and_replace_strings.main import replace_in_file, main
 
 
 class TestMainFunctions(unittest.TestCase):

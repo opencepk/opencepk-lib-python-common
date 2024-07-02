@@ -28,7 +28,7 @@ jobs:
           python-version: 3.11
 
       - name: Run tests
-        run: python3 -m unittest hooks.tests.test_main
+        run: python3 -m unittest hooks.find_and_replace_strings_package.tests.test_main
   # ----------------------
   # JOB 2: Run python package end to end test
   # ----------------------
@@ -48,7 +48,7 @@ jobs:
 
       - name: Run test-package-e2e.sh
         run: |
-          cd hooks/tests-package-e2e
+          cd hooks/find_and_replace_strings_package/tests-package-e2e
           ./test-package-e2e.sh
   # ----------------------
   # JOB 3: Run pre-commit hook test
@@ -70,5 +70,5 @@ jobs:
       - name: Run test-pre-commit-hook.sh
         run: |
           pip install pre-commit
-          cd hooks/tests-pre-commit-hook
+          cd hooks/find_and_replace_strings_package/tests-pre-commit-hook
           ./test-pre-commit-hook.sh

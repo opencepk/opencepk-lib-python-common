@@ -8,7 +8,7 @@ original_content=$(cat tests-e2e/precommit-e2e.test)
 echo "Original content: $original_content"
 
 # Run the hook
-python find_and_replace_strings/main.py --config tests-e2e/.find-and-replace.json tests-e2e/precommit-e2e.test
+python find_and_replace_strings_package/find_and_replace_strings/main.py --config tests-e2e/.find-and-replace.json tests-e2e/precommit-e2e.test
 
 # Check if the expected changes have been made
 content=$(cat tests-e2e/precommit-e2e.test)
