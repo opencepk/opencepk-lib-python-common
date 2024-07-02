@@ -12,3 +12,6 @@ repos:
           - binary
         args: ['./opencepk_lib_python_common/pypi_bumpversion_check_package/tests-pre-commit-hook/pyproject.test']
         pass_filenames: false  # Do not pass filenames to the hook (this is important to keep)
+        additional_dependencies:
+          - toml
+          - requests
