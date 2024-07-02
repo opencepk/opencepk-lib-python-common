@@ -61,13 +61,13 @@ repos:
   # -----------------------------
   # PYPI bumpversion check
   # -----------------------------
-  - repo: local
-    hooks:
-      - id: install-pypi_bumpversion_check-requirements
-        name: Install PYPI bumpversion check requirements
-        entry: sh -c 'pip3 install -r ./opencepk_lib_python_common/pypi_bumpversion_check_package/pypi_bumpversion_check/requirements.txt && exit 0'
-        language: system
-        always_run: true
+  # - repo: local
+  #   hooks:
+  #     - id: install-pypi_bumpversion_check-requirements
+  #       name: Install PYPI bumpversion check requirements
+  #       entry: sh -c 'pip3 install -r ./opencepk_lib_python_common/pypi_bumpversion_check_package/pypi_bumpversion_check/requirements.txt && exit 0'
+  #       language: system
+  #       always_run: true
 
   # -----------------------------
   # PYPI bumpversion check
@@ -78,8 +78,11 @@ repos:
         name: Check version
         args: ['./pyproject.toml']
         entry: python3 -m opencepk_lib_python_common.pypi_bumpversion_check_package.pypi_bumpversion_check
-        language: system
+        language: python
         pass_filenames: false  # Do not pass filenames to the hook (this is important to keep)
+        additional_dependencies:
+          - toml
+          - requests
 
 
   - repo: local
@@ -87,6 +90,15 @@ repos:
       - id: unittest
         name: Run unit tests
         entry: python3 -m unittest opencepk_lib_python_common.find_and_replace_strings_package.tests.test_main
+        language: system
+        pass_filenames: false
+        always_run: true
+
+  - repo: local
+    hooks:
+      - id: toml build
+        name: test the .toml package health
+        entry: pip3 install .
         language: system
         pass_filenames: false
         always_run: true
