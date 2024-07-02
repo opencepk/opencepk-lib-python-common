@@ -69,26 +69,15 @@ repos:
         language: system
         always_run: true
 
-  # # -----------------------------
-  # # PYPI bumpversion check
-  # # -----------------------------
-  # - repo: local
-  #   hooks:
-  #     - id: pypi_bumpversion_check
-  #       name: Check version
-  #       args: ['./pyproject.toml']
-  #       entry: python3 -m hooks.pypi_bumpversion_check_package.pypi_bumpversion_check
-  #       language: system
-  #       pass_filenames: false  # Do not pass filenames to the hook (this is important to keep)
-
-  - repo: https://github.com/opencepk/opencepk-lib-python-common
-    rev: v0.0.5
+  # -----------------------------
+  # PYPI bumpversion check
+  # -----------------------------
+  - repo: local
     hooks:
-      - id: python-pypi-version-check  # this is the id we refer to in precommit.hook
+      - id: pypi_bumpversion_check
         name: Check version
-        description: xxxxxxx
         args: ['./pyproject.toml']
-        entry: python-pypi-version-check
+        entry: python3 -m hooks.pypi_bumpversion_check_package.pypi_bumpversion_check
         language: system
         pass_filenames: false  # Do not pass filenames to the hook (this is important to keep)
 
