@@ -24,7 +24,6 @@ evaluate_diff_status=$?
 # Run the pre-commit hook reset
 #-------------------------------
 echo "${TEST_SCRIPT_NAME}: Resetting ${TEST_DIR}/${TEST_TARGET_FILE} file to original state"
-PWD
 cp -pf "${TEST_TARGET_FILE}.template" "${TEST_TARGET_FILE}"
 
 #-------------------------------
