@@ -2,13 +2,13 @@
 - id: python-pypi-version-check
   name: python-pypi-version-check
   description: Check if Python package already exists on PYPI.
-  entry: python-pypi-version-check/pypi_bumpversion_check-check
+  entry: hooks/pypi_bumpversion_check-check
   language: python
 
 - id: find-and-replace-strings
   name: find-and-replace-strings
   description: Check if Python package already exists on PYPI.
-  entry: python-pypi-version-check/find_and_replace_strings
+  entry: hooks/find_and_replace_strings
   language: python
 
 
