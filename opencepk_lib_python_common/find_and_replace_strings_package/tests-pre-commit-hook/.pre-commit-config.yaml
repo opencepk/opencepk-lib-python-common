@@ -6,10 +6,10 @@ repos:
     hooks:
       - id: find-and-replace-strings
         name: find-and-replace-strings
-        entry: "./hooks/find_and_replace_strings_package/find_and_replace_strings/main.py"
+        entry: "./opencepk_lib_python_common/find_and_replace_strings_package/find_and_replace_strings/main.py"
         language: python
         exclude_types:
           - binary
-        args: ["--config", "./hooks/find_and_replace_strings_package/tests-pre-commit-hook/.find-and-replace.json"]
+        args: ["--config", "./opencepk_lib_python_common/find_and_replace_strings_package/tests-pre-commit-hook/.find-and-replace.json"]
         files: "find_and_replace_strings_package/tests-pre-commit-hook/README_TEST_PRE_COMMIT\\.md$"
         # we need $ to terminate the check to avoid .md.template to be picked by hook

@@ -40,5 +40,5 @@ classifiers = [
 ]
 
 [project.entry-points."console_scripts"]
-python-pypi-version-check = "hooks.pypi_bumpversion_check_package.pypi_bumpversion_check.main:main"
-find-and-replace-strings = "hooks.find_and_replace_strings_package.find_and_replace_strings.main:main"
+python-pypi-version-check = "opencepk_lib_python_common.pypi_bumpversion_check_package.pypi_bumpversion_check.main:main"
+find-and-replace-strings = "opencepk_lib_python_common.find_and_replace_strings_package.find_and_replace_strings.main:main"

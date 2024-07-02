@@ -65,7 +65,7 @@ repos:
     hooks:
       - id: install-pypi_bumpversion_check-requirements
         name: Install PYPI bumpversion check requirements
-        entry: sh -c 'pip3 install -r ./hooks/pypi_bumpversion_check_package/pypi_bumpversion_check/requirements.txt && exit 0'
+        entry: sh -c 'pip3 install -r ./opencepk_lib_python_common/pypi_bumpversion_check_package/pypi_bumpversion_check/requirements.txt && exit 0'
         language: system
         always_run: true
 
@@ -77,7 +77,7 @@ repos:
       - id: pypi_bumpversion_check
         name: Check version
         args: ['./pyproject.toml']
-        entry: python3 -m hooks.pypi_bumpversion_check_package.pypi_bumpversion_check
+        entry: python3 -m opencepk_lib_python_common.pypi_bumpversion_check_package.pypi_bumpversion_check
         language: system
         pass_filenames: false  # Do not pass filenames to the hook (this is important to keep)
 
@@ -86,7 +86,7 @@ repos:
     hooks:
       - id: unittest
         name: Run unit tests
-        entry: python3 -m unittest hooks.find_and_replace_strings_package.tests.test_main
+        entry: python3 -m unittest opencepk_lib_python_common.find_and_replace_strings_package.tests.test_main
         language: system
         pass_filenames: false
         always_run: true

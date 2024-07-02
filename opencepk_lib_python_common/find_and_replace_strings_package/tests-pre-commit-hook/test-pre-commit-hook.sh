@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-TEST_DIR_FROM_ROOT="hooks/find_and_replace_strings_package/tests-pre-commit-hook"
+TEST_DIR_FROM_ROOT="opencepk_lib_python_common/find_and_replace_strings_package/tests-pre-commit-hook"
 TEST_DIR="tests-pre-commit-hook"
 TEST_SCRIPT_FILENAME=$(basename -- "$0")
 TEST_SCRIPT_NAME="${TEST_SCRIPT_FILENAME%.*}"

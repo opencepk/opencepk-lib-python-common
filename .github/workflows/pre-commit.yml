@@ -17,6 +17,6 @@ jobs:
         with:
           python-version: '3.11'
       - name: install-dependencies
-        run: pip install -r hooks/pypi_bumpversion_check_package/pypi_bumpversion_check/requirements.txt
+        run: pip install -r opencepk_lib_python_common/pypi_bumpversion_check_package/pypi_bumpversion_check/requirements.txt
       - name: pre-commit-run
         uses: pre-commit/action@v3.0.0
