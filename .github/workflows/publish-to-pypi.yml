@@ -55,12 +55,12 @@ jobs:
 
       - name: Publish release distributions to PyPI
         if: |
-        ${{(
-            github.event_name == 'pull_request'
-            && github.head_ref == '/refs/heads/main'
-            && github.event.action == 'closed'
-            && github.event.pull_request.merged == true
-          )}}
+          ${{(
+              github.event_name == 'pull_request'
+              && github.head_ref == '/refs/heads/main'
+              && github.event.action == 'closed'
+              && github.event.pull_request.merged == true
+            )}}
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
           skip-existing: true
