@@ -39,4 +39,4 @@ repos:
 
 ## Find and Replace strings
 
-  [Link to find and replace stings README](./opencepk_lib_python_common/find_and_replace_strings_package/README.md)
+  [find and replace strings documentation](./opencepk_lib_python_common/find_and_replace_strings_package/README.md)
