@@ -1,5 +1,5 @@
 ---
-name: Publish Python 🐍 distributions 📦 to PyPI
+name: publish-to-pypi
 
 on:
   workflow_run:
@@ -15,7 +15,7 @@ on:
 
 jobs:
   build:
-    name: test the package build
+    name: build-pip-package
     runs-on: ubuntu-latest
     permissions:
       id-token: write
@@ -28,13 +28,13 @@ jobs:
         with:
           python-version: 3.11
 
-      - name: Run test-pre-commit-hook.sh for check version package
+      - name: run pip install
         run: |
           pip3 install .
           pip3 install ".[dep]"
   build-n-publish:
     needs: build
-    name: Build and publish Python 🐍 distributions 📦 to PyPI
+    name: build-n-publish
     runs-on: ubuntu-latest
     permissions:
       id-token: write
@@ -53,7 +53,7 @@ jobs:
       - name: Build the package
         run: python -m build
 
-      - name: Publish release distributions to PyPI
+      - name: Publish package to PyPI
         if: ${{ github.event_name == 'pull_request' && github.head_ref == '/refs/heads/main' && github.event.action == 'closed' && github.event.pull_request.merged == true }}
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
