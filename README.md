@@ -18,7 +18,7 @@ repos:
         entry: python-pypi-version-check
         language: system
         pass_filenames: false  # Do not pass filenames to the hook (this is important to keep)
-        
+
   - repo: https://github.com/opencepk/opencepk-lib-python-common
     rev: v0.0.5
     hooks:

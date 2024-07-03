@@ -23,7 +23,7 @@ repos:
   # Checkov also supports the creation and contribution of custom policies.
   # -----------------------------
   - repo: https://github.com/bridgecrewio/checkov.git
-    rev: 3.2.164
+    rev: 3.2.169
     hooks:
       - id: checkov
   # -----------------------------
