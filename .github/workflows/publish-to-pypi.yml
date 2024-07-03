@@ -1,0 +1,60 @@
+---
+name: publish-to-pypi
+
+on:
+  workflow_run:
+    workflows: ["pre-commit"]
+    types:
+      - completed
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: build-pip-package
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v5.1.0
+        with:
+          python-version: 3.11
+
+      - name: run pip install
+        run: |
+          pip3 install .
+          pip3 install ".[dep]"
+  build-n-publish:
+    needs: build
+    name: build-n-publish
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v5.1.0
+        with:
+          python-version: 3.11
+
+      - name: Install pip packages
+        run: pip install twine build setuptools
+
+      - name: Build the package
+        run: python -m build
+
+      - name: Publish package to PyPI
+        if: ${{ github.event_name == 'pull_request' && github.head_ref == '/refs/heads/main' && github.event.action == 'closed' && github.event.pull_request.merged == true }}
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          skip-existing: true
