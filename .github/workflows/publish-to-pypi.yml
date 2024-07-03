@@ -13,7 +13,7 @@ on:
 
 jobs:
   build:
-    name: test-pre-commit-hook
+    name: test the package build
     runs-on: ubuntu-latest
     permissions:
       id-token: write
@@ -32,7 +32,6 @@ jobs:
           pip3 install ".[dep]"
   build-n-publish:
     needs: build
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     name: Build and publish Python 🐍 distributions 📦 to PyPI
     runs-on: ubuntu-latest
     permissions:
