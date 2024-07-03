@@ -2,13 +2,37 @@
 name: Publish Python 🐍 distributions 📦 to PyPI
 
 on:
+  workflow_run:
+    workflows: ["pre-commit"]
+    types:
+      - completed
   pull_request:
     branches:
       - main
       - feat/check-v2
 
 jobs:
+  build:
+    name: test-pre-commit-hook
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v5.1.0
+        with:
+          python-version: 3.11
+
+      - name: Run test-pre-commit-hook.sh for check version package
+        run: |
+          pip3 install .
+          pip3 install ".[dep]"
   build-n-publish:
+    needs: build
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     name: Build and publish Python 🐍 distributions 📦 to PyPI
     runs-on: ubuntu-latest
     permissions:
