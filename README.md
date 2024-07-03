@@ -2,7 +2,7 @@
 Common Python packages
 
 
-## Sample use:
+## Sample use case:
 
 ```
 
