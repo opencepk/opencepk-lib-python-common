@@ -1,10 +1,10 @@
 # opencepk-lib-python-common
-Common Python packages
 
+Common Python packages
 
 ## Sample use case:
 
-```
+````
 
 repos:
 
@@ -34,3 +34,9 @@ repos:
       verbose: true
 
       ```
+
+````
+
+## Find and Replace strings
+
+  [Link to find and replace stings README](./opencepk_lib_python_common/find_and_replace_strings_package/README.md)
