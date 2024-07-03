@@ -46,6 +46,11 @@ jobs:
         with:
           python-version: 3.11
 
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install toml
+
       - name: Run test-package-e2e.sh for find-replace-strings package
         run: |
           cd opencepk_lib_python_common/find_and_replace_strings_package/tests-package-e2e
