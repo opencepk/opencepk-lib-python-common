@@ -6,12 +6,12 @@ on:
     workflows: ["pre-commit"]
     types:
       - completed
-    push:
-      branches:
-        - main
-    pull_request:
-      branches:
-        - main
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
   build:
