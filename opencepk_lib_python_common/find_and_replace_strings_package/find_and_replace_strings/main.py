@@ -84,6 +84,8 @@ def main():
                 replacements = json.load(f)
         except FileNotFoundError:
             logging.error(f"Error: {args.config} file not found.")
+            logging.error(f'''Error: If your repo contains a {args.config}.template file -
+                          update the values inside the template file and then rename {args.config}.template to {args.config}''')
             sys.exit(1)
         except json.JSONDecodeError:
             logging.error(f"Error: {args.config} is not a valid JSON file.")
