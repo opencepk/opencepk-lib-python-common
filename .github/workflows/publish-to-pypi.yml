@@ -9,11 +9,11 @@ on:
   push:
     branches:
       - main
-      - test-1
+      - test-3
   pull_request:
     branches:
       - main
-      - test-1
+      - test-3
 
 jobs:
   build:
