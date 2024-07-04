@@ -55,7 +55,7 @@ jobs:
         run: python -m build
 
       - name: Publish package to PyPI
-        if: ${{ github.ref == 'refs/heads/test-1' && github.event_name == 'push' }}
+        if: ${{ github.ref == 'refs/heads/fix/gitflow' && github.event_name == 'push' }}
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
           skip-existing: true
