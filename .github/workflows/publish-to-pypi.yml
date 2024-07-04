@@ -55,7 +55,7 @@ jobs:
         run: python -m build
 
       - name: Publish package to PyPI
-        if: ${{ github.event_name == 'pull_request' && github.event.pull_request.merged == true && github.head_ref == 'test-1' }}
+        if: ${{ github.ref == 'refs/heads/test-1' && github.event_name == 'push' }}
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
           skip-existing: true
