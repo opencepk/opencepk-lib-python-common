@@ -7,8 +7,8 @@ packages = { find = { where = ["."] } }
 
 [project]
 name = "opencepk-lib-python-common"
-version = "1.0.0"
-description = "Python package and pre-commit-hook for finding and replacing string(s) in file(s)."
+version = "1.1.0"
+description = "Common Python opencepk packages."
 readme = "README.md"
 license = { text = "GPLv3" }
 authors = [{name = "OpenCEPK Open Cloud Engineering Platform Kit", email = "opencepk@gmail.com"}]
