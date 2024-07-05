@@ -104,6 +104,6 @@ def main():
                 continue
             for replacement in replacements:
                 replace_in_file(filename, replacement['search'], replacement['replacement'], args.dry_run)
-                
+
 if __name__ == "__main__":
     main()
