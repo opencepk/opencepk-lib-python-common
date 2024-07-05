@@ -73,14 +73,20 @@ def main():
         level = logging.DEBUG
     logging.basicConfig(level=level)
 
+    config_path = os.path.abspath(args.config)
+
     if args.direct_mode:
         logging.info("Running in direct mode")
         for filename in args.files:
+            file_path = os.path.abspath(filename)
+            if file_path == config_path:
+                logging.info(f"Skipping config file: {filename}")
+                continue
             replace_in_file(filename, args.find, args.replacement, args.dry_run)
     else:
         logging.info("Running in default config file mode")
         try:
-            with open(os.path.join(os.getcwd(), args.config), 'r') as f:
+            with open(config_path, 'r') as f:
                 replacements = json.load(f)
         except FileNotFoundError:
             logging.error(f"Error: {args.config} file not found.")
@@ -92,9 +98,12 @@ def main():
             sys.exit(1)
 
         for filename in args.files:
+            file_path = os.path.abspath(filename)
+            if file_path == config_path:
+                logging.info(f"Skipping config file: {filename}")
+                continue
             for replacement in replacements:
                 replace_in_file(filename, replacement['search'], replacement['replacement'], args.dry_run)
-
-
+                
 if __name__ == "__main__":
     main()
